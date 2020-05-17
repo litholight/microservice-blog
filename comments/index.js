@@ -26,5 +26,5 @@ app.post("/posts/:id/comments", (req, res) => {
 });
 
 app.listen(4001, () => {
-  console.log("Comment service is listening on 4001");
+  console.log("Comment service is running on 4001");
 });
